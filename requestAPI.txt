@@ -1,0 +1,7 @@
+var http = new XMLHttpRequest();
+var APIurl = 'http://api.plainrussian.ru/api/1.0/ru/measure/';
+var URL-sending='https://echo.msk.ru/blog/ssobyanin/2210036-echo/';
+http.open('POST', APIurl, URL-sending)
+
+//Send the proper header information along with the request
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
