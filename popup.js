@@ -12,7 +12,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 //var APIurl = 'http://api.plainrussian.ru/api/1.0/ru/measure/';
 //var URL-sending= 'https://echo.msk.ru/blog/ssobyanin/2210036-echo/';
 //var requesturl = 'url=' + encodeURIComponent(URL-sending);
-xhr.open('POST', requesturl);
+xhr.open('GET', requesturl);
 xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 //xhr.responseType = 'json';
 xhr.send();	
